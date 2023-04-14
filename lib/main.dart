@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:todo_list/splash_screen.dart';
 import 'package:todo_list/todo_list.dart';
 
 void main() {
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: TodoList(),
+      home: Splash(),
     );
   }
 }
